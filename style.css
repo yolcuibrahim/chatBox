@@ -1,0 +1,139 @@
+/* Enter your styles here */
+* {
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  
+  
+  .chatBox {
+    background-color: rgb(34, 3, 58);
+    /*justify-content: center;*/
+    /*text-align: center;*/
+    height: 500px;
+    width: 350px;
+  
+    /*margin-left: 250px;
+    margin-bottom: 100px;*/
+    border-radius: 15px;
+    /*text-align: center;
+    margin: auto;*/
+    /*margin: auto;
+    margin-top: 100px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+  
+    display: flex;
+    background-image: linear-gradient(#7762AB, #575CAD);
+    border-radius: 15px;
+    height: 70px;
+  
+  }
+  
+  .userİmages img {
+    width: 44px;
+    height: 44px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+  }
+  
+  
+  .image1 {
+    position: absolute;
+  
+  
+  }
+  
+  .image2 {
+  
+    position: absolute;
+    left: 233px;
+  
+  }
+  
+  .image3 {
+  
+    position: absolute;
+    left: 256px;
+  
+  }
+  
+  .userName {
+    padding-left: 120px;
+  }
+  
+  .userName p {
+    color: white;
+    font-size: small;
+    margin-top: 15px;
+  
+  }
+  
+  .messages {
+    display: flex;
+  
+  }
+  
+  
+  
+  .messages img {
+    width: 44px;
+    height: 44px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .leahMessage {
+    padding-top: 20px;
+    padding-left: 15px;
+  }
+  
+  .leahMessage p {
+    color: white;
+    background-color: #293869;
+    border-radius: 10px;
+    font-size: small;
+    height: 70px;
+    width: 190px;
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  
+  .chatInput {
+    display: flex;
+    border-radius: 10px;
+    height: 70px;
+    width: 100%;
+    background-color: #293869;
+    margin-top: 270px;
+  }
+  
+  .chatInput input {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: #293869;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #575CAD;
+    padding-left: 20px;
+    color: #575CAD;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
